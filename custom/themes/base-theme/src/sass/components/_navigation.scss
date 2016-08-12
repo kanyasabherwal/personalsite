@@ -1,4 +1,24 @@
-nav {
-	height: 50px;
-	background: $grey;
-}
+.menu {
+       list-style: none;
+       padding:0;
+       margin:0;
+       text-align:right; 
+       border-bottom: 1px solid #434A5C; 
+       background: #F5EFE7;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+          li {
+            display:inline-block;
+       padding:20px 35px;
+          }
+          a{
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'PT Sans Narrow', sans-serif;
+        }
+
+        }

@@ -1,0 +1,56 @@
+      body{
+        background-color: #F5EFE7;
+
+         }
+
+          
+       
+          img.profile {
+          float: left;
+          margin-right: 20px;
+
+        }                                                                      
+      
+      
+       .banner { 
+        padding-top:110px; 
+        padding-bottom:110px; 
+        background-color: $cherryred;
+        background-attachment:fixed;
+
+        }
+    
+      .about-section {
+        display: flex;
+        > div {
+          padding: 100px;
+          flex: 0 0 50%;
+        }
+        > div:first-child {
+          background:$seafoam;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+        }
+      }
+
+    .work-section {
+        display: flex;
+        > div {
+          padding: 100px;
+          flex: 0 0 50%;
+            display:flex;
+          align-items:center;
+          justify-content:center;
+        }
+        > div:nth-child(2) {
+          background:$seafoam;
+        
+        }
+      }
+
+      
+
+
+        
+ 
